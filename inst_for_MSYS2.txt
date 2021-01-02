@@ -1,0 +1,8 @@
+pacman -Su
+pacman -Syu
+pacman -S mingw-w64-x86_64-boost
+pacman -S base-devel gcc cmake
+pacman -S git
+cd /c/devSarmaLink/
+git clone https://github.com/SarmaLink/SLGenTokens.git
+git clone https://github.com/nlohmann/json.git
